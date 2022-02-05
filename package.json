@@ -1,0 +1,33 @@
+{
+  "name": "vnnative3-event",
+  "version": "1.0.0",
+  "description": "Event plugin of Vn Native Framework.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsc",
+    "public":"npm publish --access public",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveleetn91/vnnative3-event.git"
+  },
+  "keywords": [
+    "vnnative",
+    "event",
+    "vnnative",
+    "vnf",
+    "vn3"
+  ],
+  "author": "steve lee, hoang lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steveleetn91/vnnative3-event/issues"
+  },
+  "homepage": "https://github.com/steveleetn91/vnnative3-event#readme",
+  "dependencies": {
+    "@types/node": "^17.0.15",
+    "typescript": "^4.5.5"
+  }
+}
